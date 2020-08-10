@@ -64,7 +64,10 @@ static const int statebmonval            = statmonval;
 #if PANGO_PATCH
 static const char font[]                 = "monospace 10";
 #else
-static const char *fonts[]               = { ":size=16" };
+static const char *fonts[] = {
+	"DejaVu Sans Mono for Powerline:size=10",
+	"JoyPixels:pixelsize=10:antialias=true:autohint=true"
+};
 #endif // PANGO_PATCH
 static const char dmenufont[]            = "DejaVu Sans Mono for Powerline:size=16";
 
@@ -293,7 +296,7 @@ static Sp scratchpads[] = {
 #if EWMHTAGS_PATCH
 static char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 #else
-static const char *tags[] = { "\uf120", "\uf7ae", "\uf121", "\uf04b", "\ue62e", "\uf251", "\ue727", "\uf537", "\uf684" };
+static const char *tags[] = { "", "", "", "", "", "", "", "", ""};
 #endif // EWMHTAGS_PATCH
 #if ALTERNATIVE_TAGS_PATCH
 static const char *tagsalt[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };

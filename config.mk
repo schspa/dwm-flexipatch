@@ -27,8 +27,8 @@ XRENDER = -lXrender
 #MPDCLIENT = -lmpdclient
 
 # Uncomment for the pango patch / PANGO_PATCH
-#PANGOINC = `pkg-config --cflags xft pango pangoxft`
-#PANGOLIB = `pkg-config --libs xft pango pangoxft`
+PANGOINC = `pkg-config --cflags xft pango pangoxft`
+PANGOLIB = `pkg-config --libs xft pango pangoxft`
 
 # Uncomment this for the rounded corners patch / ROUNDED_CORNERS_PATCH
 #XEXTLIB = -lXext

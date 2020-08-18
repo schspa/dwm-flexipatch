@@ -126,7 +126,7 @@ static char titlefloatcolor[]            = "#005577";
 #endif // VTCOLORS_PATCH
 
 #if ALPHA_PATCH
-static const unsigned int baralpha = 0x30;
+static const unsigned int baralpha = 0xA0;
 static const unsigned int borderalpha = OPAQUE;
 static const unsigned int alphas[][3] = {
 	/*                    fg      bg        border     */

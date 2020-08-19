@@ -354,6 +354,8 @@ static const Rule rules[] = {
 	RULE(.class = "Firefox", .tags = 1 << 7)
 	RULE(.class = "emacs", .tags = 1<<0)
 	RULE(.class = "chromium", .tags = 1 <<4)
+	RULE(.class = "Google-chrome", .tags = 1 << 3)
+	RULE(.class = "Virt-manager", .tags = 1 << 8, .monitor = 0)
 	#if SCRATCHPADS_PATCH
 	RULE(.instance = "spterm", .tags = SPTAG(0), .isfloating = 1)
 	RULE(.instance = "spfm", .tags = SPTAG(1), .isfloating = 1)
